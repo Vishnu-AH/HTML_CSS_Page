@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: #277391;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.nav .links a {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.nav .links{
+    padding-right: 25px;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(215, 238, 13);
+    cursor: pointer;
+}
+
+.container{
+    padding: 20px 150px 20px 150px;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    padding: 0 200px 0 200px;
+    height: 40vh;
+}
+
+.boxes .box {
+    background-color: rgb(245, 234, 234);
+    width: 800px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(5, 32, 43);
+}
+
+.boxes .box .readmore{
+    padding: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #277391;
+}
+
+.boxes .box .readmore:hover{
+    color: rgb(215, 238, 13);
+    cursor: pointer;
+}
+
+.boxes .box .heading{
+    padding: 5px 15px 0 15px;
+    font-weight: 600;
+}
+
+.boxes .box .explain{
+    font-weight: 540;
+    padding: 0 15px 20px 15px;
+}
